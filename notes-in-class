@@ -13,3 +13,35 @@ learn how to create and modify displaying shapes
 
 quiz question 1: how many arguments in the constructor of shape class in: https://zhongyanlin.github.io/site/showcase?
 
+question 2: reverse string with method using charAt(i) to do so
+
+Object.assign(String.prototyp
+{
+  something()
+  {
+    return this.split(' ').join();
+   }
+ });
+
+public class ReverseString {
+  public static void main(String[] args) {
+    
+    String stringname = "stringy string words";
+    String reversedString = "";
+    
+    for(int i = stringname.length()-1; i>=0; i--){
+      reversedString = reversedString + stringname.charAt(i);
+    }
+    
+    System.out.print("The reversed string of the '"+stringname+"' is: " );
+    System.out.println(reversedString);
+  }
+}
+
+sort is a built in method of array
+
+array.sort()
+array.sort(function(a,b)
+{return a<b? 1:-1});
+
+Java:Arrays.sort(arr);
